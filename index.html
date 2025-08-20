@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-Means Clustering 3D Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>K-Means Clustering 3D Demo</h1>
+    <div class="controls">
+        <label for="k-select">Number of Clusters (k):</label>
+        <select id="k-select">
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+        <button id="assign-btn">Assign Points</button>
+        <button id="move-btn">Move Centroids</button>
+        <button id="reset-btn">Reset</button>
+    </div>
+    <canvas id="canvas3d" width="700" height="500"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
